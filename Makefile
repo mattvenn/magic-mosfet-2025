@@ -11,7 +11,7 @@ mosfet.spice: $(NAME).mag
 
 sim: $(NAME).spice
 	# run the simulation
-	ngspice $^
+	ngspice simulation.spice
 
 
 check: $(NAME).spice simulation.spice
