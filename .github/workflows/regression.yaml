@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: mattvenn/z2a-course-regressions@main
         with:
-          repo: mattvenn/magic-mosfet-refresh25
+          repo: mattvenn/magic-mosfet-2025
           ref: mosfet-ci
           command: make check
           artifact_file: mosfet.svg
