@@ -1,19 +1,73 @@
 magic
 tech sky130A
-timestamp 1752846654
+timestamp 1755705813
 << nmos >>
 rect 40 0 55 65
 << ndiff >>
-rect 0 0 40 65
-rect 55 0 95 65
+rect 0 55 40 65
+rect 0 10 5 55
+rect 25 10 40 55
+rect 0 0 40 10
+rect 55 55 95 65
+rect 55 10 70 55
+rect 90 10 95 55
+rect 55 0 95 10
+<< ndiffc >>
+rect 5 10 25 55
+rect 70 10 90 55
 << poly >>
 rect 40 65 55 105
-rect 40 -45 55 0
+rect 40 -20 55 0
+rect 35 -30 70 -20
+rect 35 -50 40 -30
+rect 60 -50 70 -30
+rect 35 -60 70 -50
+<< polycont >>
+rect 40 -50 60 -30
+<< locali >>
+rect -35 55 30 65
+rect -35 50 5 55
+rect -35 20 -30 50
+rect -5 20 5 50
+rect -35 10 5 20
+rect 25 10 30 55
+rect -35 0 30 10
+rect 65 55 130 65
+rect 65 10 70 55
+rect 90 50 130 55
+rect 90 20 100 50
+rect 125 20 130 50
+rect 90 10 130 20
+rect 65 0 130 10
+rect -35 -25 70 -20
+rect -35 -55 -30 -25
+rect -5 -30 70 -25
+rect -5 -50 40 -30
+rect 60 -50 70 -30
+rect -5 -55 70 -50
+rect -35 -60 70 -55
+<< viali >>
+rect -30 20 -5 50
+rect 100 20 125 50
+rect -30 -55 -5 -25
+<< metal1 >>
+rect -70 50 0 65
+rect -70 20 -30 50
+rect -5 20 0 50
+rect -70 5 0 20
+rect 95 50 165 70
+rect 95 20 100 50
+rect 125 20 165 50
+rect 95 10 165 20
+rect -70 -25 0 -10
+rect -70 -55 -30 -25
+rect -5 -55 0 -25
+rect -70 -70 0 -55
 << labels >>
-flabel poly 40 65 55 105 0 FreeSans 80 0 0 0 gate
+flabel metal1 -65 -60 -40 -20 0 FreeSans 80 0 0 0 gate
 port 1 nsew
-flabel ndiff 0 0 40 65 0 FreeSans 80 0 0 0 drain
+flabel metal1 -65 15 -40 55 0 FreeSans 80 0 0 0 drain
 port 2 nsew
-flabel ndiff 55 0 95 65 0 FreeSans 80 0 0 0 source
-port 3 nsew
+flabel metal1 135 20 160 60 0 FreeSans 80 0 0 0 source
+port 4 nsew
 << end >>
